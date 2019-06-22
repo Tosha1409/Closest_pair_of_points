@@ -1,0 +1,68 @@
+1.0
+(425, 242)
+(426, 242)
+         17118 function calls (16144 primitive calls) in 0.051 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:119(release)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:159(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:163(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:170(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(_get_module_lock)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:190(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:214(_call_with_frames_removed)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:225(_verbose_message)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:235(_requires_builtin_wrapper)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:310(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:314(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(__exit__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:324(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:419(parent)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:427(has_location)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:436(spec_from_loader)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:510(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:570(module_from_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:659(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:716(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:737(create_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:745(exec_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:762(is_package)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:852(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:856(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:879(_find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:939(_find_and_load_unlocked)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:94(acquire)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:966(_find_and_load)
+        6    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        1    0.000    0.000    0.051    0.051 shortest_distance.py:1(<module>)
+    975/1    0.005    0.000    0.048    0.048 shortest_distance.py:25(search_pair)
+     3026    0.011    0.000    0.015    0.000 shortest_distance.py:4(lenght)
+      487    0.019    0.000    0.038    0.000 shortest_distance.py:43(get_strip)
+     1633    0.001    0.000    0.001    0.000 shortest_distance.py:52(<lambda>)
+      488    0.001    0.000    0.004    0.000 shortest_distance.py:8(halves_search)
+        6    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.051    0.051 {built-in method builtins.exec}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     3655    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     1633    0.002    0.000    0.002    0.000 {built-in method builtins.min}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+     3026    0.004    0.000    0.004    0.000 {built-in method math.sqrt}
+     1633    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      488    0.004    0.000    0.005    0.000 {method 'sort' of 'list' objects}
+
+

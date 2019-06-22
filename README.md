@@ -13,4 +13,22 @@ rewritten program from previous. Python is more flexible language and allow to m
 so i runned tests (*Python -m cProfile*):  
 **mine.txt** - those are results for mine.  
 **original.txt** - those are results for Andriy Lazorenko code.  
-so it shows basicly double difference in speed  
+so it shows basicly double difference in speed.  
+  
+Other thing that bothered me was this *"maximum 6 points at strip"*:  
+C++ article was saying  
+>This is a proven fact that this loop runs at most 6 times.  
+  
+and at other link it was:  
+> In short: it is enough to check only seven points following each point on the s_y subarray. You should really look through the proof of correctness, because it explains a lot better this ‘trick’ that allows for great running speed increase.  
+  
+so that left me pretty puzzled, is it running 6 times(because there is no more points) or you need check only seven points(but there can be more). So decided to experiment and replaced line number 55  
+>		for y in range (x+1, min ((x+7),len(strip))):  
+with  
+>		for y in range (x+1, len(strip)):  
+and results improved even a bit more.  
+  
+**shortest_distance2.py** - mine code without limiting loop for checking strip.  
+**mine2.txt**	- test results  
+  
+so it looks like this check/choosing minimum was unnecessary and perfomance a bit improved a bit more.
